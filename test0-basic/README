@@ -1,0 +1,47 @@
+# Basic Checks
+
+There are three main tools in this basic tests.
+
+- `scripts/basic_check.py` - this python script checks the following components
+  - `--sw` - this prints the necessary software versions (kernel, OFED, ibverbs, perftest)
+  - `--perf` - this checks the basic performance (throughput and latency) for this RDMA host using `perftest` (`ib_write_bw` and `ib_write_lat`)  
+  - `--fw` - this checks the firmware version (currently for Nvidia Mellanox only)
+  - `--qos` - this checks the QoS configuration (currently for Nvidia Mellanox only)
+
+- `scripts/config_check.py` - this python script checks the performance-related configurations
+  - by default, this script checks MTU, PCIe configuration, and NIC fw/hw configurations (currently for Nvidia Mellanox only)
+
+- `src/control_check` - this binary evaluates the basic control verbs performance (for allocation only).
+
+# Overview
+
+* [Prerequisite](#Prerequisite) 
+* [Quick Start](#Quick-start)
+* [Content](#Content)
+* [Publication](#Publications)
+* [Copyright](#Copyright)
+
+# Prerequisite
+- The host with RDMA NIC (including necessary software packages, firmware, ...)
+- python3
+- gflags, glog, ibverbs
+- mft/mst (for Nvidia Mellanox NICs only)
+
+# Run Basic Checks 
+
+~~~
+# Basic check
+python3 scripts/basic_check.py --help;
+
+# Perf-related configuration check
+python3 scripts/config_check.py --help;
+ 
+# Control verbs performance evaluation
+cd src; 
+make; 
+./control_check
+~~~
+
+# Copyright
+
+This basic checks is provided under the MIT license. See LICENSE for more details.

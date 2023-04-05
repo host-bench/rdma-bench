@@ -1,0 +1,20 @@
+{
+    "VictimUserName": "xinhao",
+    "AttackerUserName": "xinhao",
+    "VictimDataIpList": ["192.168.211.242", "192.168.211.250"],
+    "AttackerDataIpList": ["192.168.211.242", "192.168.211.250"],
+    "VictimMgmtIpList": ["danyang-07.cs.duke.edu", "danyang-08.cs.duke.edu"],
+    "AttackerMgmtIpList":["danyang-07.cs.duke.edu", "danyang-08.cs.duke.edu"],
+    "VictimDevice": "mlx5_0",
+    "VictimGid": 3,
+    "VictimTos": 105,
+    "AttackerDevice" : "mlx5_0",
+    "AttackerGid" : 3,
+    "AttackerTos" : 0,
+    "VictimPort": 3001,
+    "AttackerPort": 4001,
+    "Alpha": 0.8,
+    "Directory": "./tests",
+    "MonitorKey": "rx_prio3",
+    "Verbose": true
+}
