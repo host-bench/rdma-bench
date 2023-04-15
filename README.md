@@ -65,6 +65,8 @@ We are glad that the following companies are using this rdma-bench for their RDM
 
 - Intel: Intel has also reached out to us regarding issues identified by this project on their E810 series NICs. They have been actively using rdma-bench to reproduce the identified issues and have shown a strong commitment to improving their RDMA NICs by addressing them. We are working collaboratively with Intel to address these issues with the help of this project.
 
+- DreamBig: DreamBig is interested in exploring RDMA performance isolation and actively utilize this test suite to conduct RNIC tests. This project has been instrumental in helping them conduct efficient and systematic RNIC tests.
+
 ## Contact
 
 If you have any technical issues using this tool or have any questions or feedback, please don't hesitate to reach out to us. You can contact us by email at xinhao.kong@duke.edu (Xinhao Kong) or by submitting a GitHub issue. We appreciate any feedback or suggestions you may have to improve this project and make it more useful to the community.
