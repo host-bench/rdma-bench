@@ -54,7 +54,7 @@ The design and implementation of this module, as well as the experience gained f
 
 We are glad that the following companies are using this rdma-bench for their RDMA development and maintainence:
 <p align="center">
-<img src="icon.jpg" alt="Alt text" width="600">
+<img src="icon.jpg" alt="Alt text" width="700">
 </p>
 
 - Microsoft: Microsoft is currently utilizing this project to automate their RDMA testing. With the help of this project, Microsoft has uncovered and addressed several potential vulnerabilities in the NICs they are currently testing. This has helped to improve the reliability and performance of their RDMA networks.
